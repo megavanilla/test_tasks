@@ -6,7 +6,7 @@
  * Time: 21:58
  */
 
-namespace mvc\router;
+namespace projects\test_task\mvc\router;
 
 class Router
 {

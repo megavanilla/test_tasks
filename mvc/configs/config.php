@@ -6,7 +6,7 @@
  * Time: 17:57
  */
 
-namespace mvc\configs;
+namespace projects\test_task\mvc\configs;
 
 
 class Config

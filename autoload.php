@@ -1,7 +1,6 @@
 <?php
 
-use mvc\configs;
-use mvc\router;
+use projects\test_task\mvc as mvc;
 
 $Configs = [];
 
@@ -43,12 +42,12 @@ function loadFromLibs($class, $base_dir)
 }
 
 //Загрузим конфиг параметры
-$Config = new configs\Config();
+$Config = new mvc\configs\Config();
 $Config->getConfig('main/main', 'main');
 $Config->getConfig('db/mysql/connect', 'db');
 
 //Запустим роутинг
-$Router = new router\Router();
+$Router = new mvc\router\Router();
 $Router->route();
 
 ?>
